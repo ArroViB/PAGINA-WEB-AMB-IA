@@ -1,0 +1,102 @@
+/* Estilos básicos para la estructura */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* Añade padding-bottom para evitar que el footer tape contenido */
+    padding-bottom: 3rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Centrar el contenido de la sección Inicio */
+section#inicio {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section#inicio ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-position: inside;
+}
